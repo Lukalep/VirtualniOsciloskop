@@ -1,0 +1,34 @@
+# LabVIEW generisane datoteke i fascikle
+*.tmp
+*.log
+*.bak
+*.vi.bak
+*.ctl.bak
+*.llb.bak
+*.lvproj.bak
+
+# LabVIEW build output (binarni fajlovi)
+builds/
+*.exe
+*.dll
+*.so
+*.out
+*.obj
+
+# Automatski generisane informacije o projektu
+.build/
+.cache/
+project_cache/
+
+# OS specifični fajlovi
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# LabVIEW lokalna podešavanja (ne deliti između timova)
+*.aliases
+*.lvlps
+
+# Opciono: Ako koristite Git LFS, ovde možete dodati velike binarne fajlove
+# *.vi
+# *.ctl
